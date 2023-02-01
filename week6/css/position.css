@@ -1,0 +1,41 @@
+.container{
+    width: 1050px;
+    height: 1000px;
+    border-style: solid;
+    position:relative;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    border-style: double;
+
+}
+.purple{
+    background-color:purple;
+    position: relative;
+    /* top: 10px;
+    right: 20px;
+    left:10px ;
+    bottom:0px; */
+
+}
+.red{
+    background-color:red;
+    position: absolute;
+    right: 10px;
+    top:0px;
+
+}
+.yellow{
+    background-color: yellow;
+}
+
+
+
+.green{
+    background-color: green;
+    position: fixed;
+    
+
+
+}

@@ -1,0 +1,45 @@
+h1{
+    background-color: antiquewhite;
+    font-size: 60px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 25px 10px 12.5px rgb(29, 19, 227);
+    color: black;
+    letter-spacing: 50px;
+
+}
+.container{
+    background-color: rgb(255, 98, 0);
+    width: 1050px;
+    height: 1050px;
+     border-radius:10px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.box1{
+    background-color: rgb(189, 217, 227);
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    font-size: 15px;
+    line-height: 20px;
+    
+
+}
+.box2{
+    background-color: rgb(157, 0, 255);
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    font-size: 15px;
+}
+.box3{
+    background-color: rgb(0, 221, 255);
+    width: 300px;
+    height: 250px;
+    border-style: solid;
+    font-size: 15px;
+}

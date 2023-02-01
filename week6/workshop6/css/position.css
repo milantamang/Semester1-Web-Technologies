@@ -1,0 +1,38 @@
+.container{
+    width:1050px;
+    height: 1050px;
+    border-style: solid;
+    position: relative;
+}
+
+.box{
+    width:250px;
+    height: 250px;
+    border-style: solid;
+}
+.purple{
+    background-color: purple;
+    position:relative;
+    top:10px;
+    left:20px;
+}
+
+.red{
+    background-color: red;
+    position: absolute;
+    right:10px;
+    top:0px;
+    left:0px;
+    bottom: 0px;
+}
+.yellow{
+    background-color: yellow;
+    position: sticky;
+    top:0px;
+}
+
+.orange{
+    background-color: orange;
+    position: fixed;
+    /* ++ */
+}

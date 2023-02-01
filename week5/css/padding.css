@@ -1,0 +1,30 @@
+#p1{
+    margin:0px;
+    background-color: darkorange;
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: blueviolet;
+    font-family: 'Courier New', Courier, monospace;
+    border: dotted;
+    padding: 10px;
+}
+#p2{
+    background-color: rgb(77, 71, 65);
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: rgb(3, 56, 32);
+    font-family:rgb(135, 6, 6);
+    border:dotted
+
+}
+#p3{
+    background-color: rgb(56, 58, 175);
+    width: 300px;
+    height: 300px;
+    font-size: 20px;
+    color: rgb(200, 87, 132);
+    font-family: 'Courier New', Courier, monospace;
+    border: dotted;
+}
