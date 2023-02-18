@@ -1,0 +1,111 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/Milan.JPEG);
+    background-size: cover;
+    background-position: center;
+}
+.sidebar{
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    
+
+}
+
+.name{
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+span{
+    color: aqua;
+}
+.sidebar nav li{
+    display: inline-block;
+    list-style-type: none;
+    
+    font-size: 20px;
+    padding: 10px 25px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav li a:hover{
+    color: aqua;
+    transition: 0.4ms;
+    
+}
+.main{
+    position: absolute;
+    top: 60%;
+    left: 5%;
+}
+
+h1{
+    color: white;
+    margin: 20px 0px 20px;
+    font-size: 75px;
+}
+h3{
+    color: white;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+h4{
+    color: aqua;
+    letter-spacing: 2px;
+    font-size: 20px;
+
+
+}
+
+.btn button{
+    background-color: aqua;
+    color: grey;
+    
+    border: 2px solid transparent;
+    font-weight: bold;
+    font-size: 10px;
+    padding: 5px 10px;
+    margin: 0px 5px;
+    border-radius: 30px;
+    transition: .4s;
+}
+.btn button a{
+    text-decoration: none;
+    
+}
+.btn button:hover{
+ transform: scale(1.2);
+}
+
+.cpr{
+    margin-top: 30px;
+    letter-spacing: 1px;
+}
+/* .cpr p{
+    margin-left: 70%;
+
+} */

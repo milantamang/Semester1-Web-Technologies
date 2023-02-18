@@ -1,0 +1,101 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    width: 100%;
+    background-image: url(images/bg.JPEG);
+    background-size: cover;
+    background-position: center;
+}
+.sidebar{
+    font-family: 'Open Sans', sans-serif;
+}
+.sidebar nav{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 5%;
+    padding-right: 5%;
+
+    
+
+}
+
+.name{
+    color: white;
+    letter-spacing: 1px;
+    cursor: pointer;
+    font-size: 35px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+span{
+    color: aqua;
+}
+.sidebar nav li{
+    display: inline-block;
+    list-style-type: none;
+    
+    font-size: 20px;
+    padding: 10px 25px;
+    
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: white;
+}
+.sidebar nav li a:hover{
+    color: aqua;
+    transition: 0.4ms;
+    
+}
+.service{
+    width:100%;
+    padding: 100px 0px;
+}
+.title h2{
+color: white;
+font-size: 75px;
+width: 1130px;
+margin: 30px auto;
+text-align: center;
+
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+
+}
+.card{
+    height: 265px;
+    width: 335px;
+    padding: 20px 35px;
+    background: aqua;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+h5{
+    color: grey;
+    font-size: 23px;
+    margin-bottom: 15px;
+}
+.detail p{
+color: black;
+font-size: 16px;
+line-height: 27px;
+margin-bottom: 25px;
+
+}
